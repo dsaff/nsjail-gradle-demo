@@ -1,5 +1,6 @@
 FROM ubuntu:18.04
 
+# Heavily inspired by https://github.com/google/nsjail
 RUN apt-get -y update && apt-get install -y \
     autoconf \
     bison \
